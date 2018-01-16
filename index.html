@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="css/cssreset-min.css"/>
+    <style>
+        *{
+            box-sizing: border-box;
+            touch-action: none;
+        }
+        .box {
+            width: 300px;
+            height: 300px;
+            background-color: #d5ddff;
+            margin: 30px auto;
+            position: relative;
+        }
+        .box div {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        .box div:nth-child(1){
+            top:0;
+            left:0;
+            background: url('img/timg_6.jpg') 0 0 no-repeat;
+            -webkit-background-size: cover;
+        }
+        .box div:nth-child(2){
+            top:0;
+            left:100px;
+            background: url('img/timg_2.jpg') 0 0 no-repeat;
+            -webkit-background-size: cover;
+        }
+        .box div:nth-child(3){
+            top:0;
+            left:200px;
+            background: url('img/timg_1.jpg') 0 0 no-repeat;
+            -webkit-background-size: cover;
+        }
+        .box div:nth-child(4){
+            top:100px;
+            left:0;
+            background: url('img/timg_4.jpg') 0 0 no-repeat;
+            -webkit-background-size: cover;
+        }
+        .box div:nth-child(5){
+            top:100px;
+            left:100px;
+            background: url('img/timg_3.jpg') 0 0 no-repeat;
+            -webkit-background-size: cover;
+        }
+        .box div:nth-child(6){
+            top:100px;
+            left: 200px;
+            background: url('img/timg_7.jpg') 0 0 no-repeat;
+            -webkit-background-size: cover;
+
+        }
+        .box div:nth-child(7){
+            top:200px;
+            left:0;
+            background: url('img/timg_5.jpg') 0 0 no-repeat;
+            -webkit-background-size: cover;
+        }
+        .box div:nth-child(8){
+            top:200px;
+            left: 100px;
+            background: url('img/timg_0.jpg') 0 0 no-repeat;
+            -webkit-background-size: cover;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="box">
+    <div class="p1"></div>
+    <div class="p2"></div>
+    <div class="p3"></div>
+    <div class="p4"></div>
+    <div class="p5"></div>
+    <div class="p6"></div>
+    <div class="p7"></div>
+    <div class="p8"></div>
+</div>
+<script src="lib/zepto.min.js"></script>
+<script src="lib/fx.js"></script>
+<script src="lib/selector.js"></script>
+<script src="lib/touch.js"></script>
+<!--<script src="lib/jquery-3.2.1.min.js"></script>-->
+
+<script src="js/index.js"></script>
+</body>
+</html>
