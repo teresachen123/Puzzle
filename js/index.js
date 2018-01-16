@@ -27,7 +27,7 @@ $(function () {
                     return;
                 }
             }
-            $(this).stop().animate({
+            $(this).animate({
                 left: tempL
             })
             posData.splice(index, 1, {left: tempL, top: tempT});
@@ -50,7 +50,7 @@ $(function () {
                     return;
                 }
             }
-            $(this).stop().animate({
+            $(this).animate({
                 left: tempL
             })
             posData.splice(index, 1, {left: tempL, top: tempT});
@@ -72,7 +72,7 @@ $(function () {
                     return;
                 }
             }
-            $(this).stop().animate({
+            $(this).animate({
                 top: tempT
             })
             posData.splice(index, 1, {left: tempL, top: tempT});
@@ -94,7 +94,7 @@ $(function () {
                     return;
                 }
             }
-            $(this).stop().animate({
+            $(this).animate({
                 top: tempT
             })
             posData.splice(index, 1, {left: tempL, top: tempT});
